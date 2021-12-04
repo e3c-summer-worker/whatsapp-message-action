@@ -1,25 +1,21 @@
-name: 'Vonage WhatsApp Action'
-description: 'Action to send WhatsApp messages'
+name: "Vonage WhatsApp Action"
+description: "Action to send WhatsApp messages"
 runs:
-  using: 'node12'
-  main: 'dist/index.js'
+  using: "node12"
+  main: "dist/index.js"
 inputs:
   message:
     description: The message you want to send to the whatsapp number
     required: true
-inputs:
   whatsapp-number:
     description: The number you're sending the message to
     required: true
-inputs:
   vonage-number:
     description: The vonage number
     required: true
-inputs:
   API_KEY:
     description: Vonage API Key
     required: true
-inputs:
   API_SECRET:
     description: Vonage API Secret
     required: true
