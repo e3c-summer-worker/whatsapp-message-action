@@ -11,11 +11,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@vercel/ncc": "^0.26.1",
-    "ncc": "^0.3.6"
+    "@vercel/ncc": "^0.26.2"
   },
   "dependencies": {
-    "@actions/core": "^1.2.6",
-    "axios": "^0.21.1"
+    "@actions/core": "^1.6.0",
+    "axios": "^0.21.4"
   }
 }
