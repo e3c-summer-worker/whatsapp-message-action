@@ -1,0 +1,21 @@
+{
+  "name": "github-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "ncc build whatsapp.js -o dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vercel/ncc": "^0.26.1",
+    "ncc": "^0.3.6"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "axios": "^0.21.1"
+  }
+}
