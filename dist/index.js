@@ -4478,7 +4478,8 @@ const messageToSend =
     `${MESSAGE}\n\n` +
     `Repository: ${env.GITHUB_REPOSITORY}\n` +
     `Workflow name: ${env.GITHUB_WORKFLOW}\n` +
-    `Job name: ${env.GITHUB_JOB}`;
+    `Job name: ${env.GITHUB_JOB}\n` +
+    `https://github.com/${env.GITHUB_REPOSITORY}/actions/runs/${env.GITHUB_RUN_ID}`;
 
 (async () => {
     try {
